@@ -1,0 +1,76 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply styles to the entire body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the login section */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Style the login container */
+.login-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the section title */
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the input containers */
+.input-container {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Style labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Style input fields */
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Style the login button */
+.button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
